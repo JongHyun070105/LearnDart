@@ -1,0 +1,23 @@
+Dart 네이밍 컨벤션
+
+폴더 이름과 파일 이름은 스네이크 케이스를 사용한다.
+ex) plugins/ | main_screen.dart
+
+폴더명은 복수형을 사용하며, 파일명은 가급적 단수형을 사용한다.
+ex) utils/ | test_screen.dart
+
+변수 이름과 함수 이름은 카멜 케이스를 사용한다.
+ex) String userId = 'User';
+ex) bool initializeScreen()
+
+클래스 이름은 파스칼 케이스를 사용한다.
+ex) class MainApp
+
+라이브러리 프리픽스 값은 스네이크 케이스를 사용한다.
+ex) import 'package:flutter/material.dart' as fluuter_material;
+
+가능한 파일 이름 끝에 디렉토리 이름을 포함한다.
+ex) screens/ main_screen.dart
+
+파일 내 단일 클래스가 존재하는 경우 파일명과 동일한 이름을 사용한다.
+ex> purchase_screen.dart -> class PurchaseScreen
