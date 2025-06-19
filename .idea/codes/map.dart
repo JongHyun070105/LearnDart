@@ -13,5 +13,6 @@ void main(){
   Map<Object, String> objectMap = {
     'name': '종현',
     1: '숫자 키',
+    true: '참'
   };
 }
