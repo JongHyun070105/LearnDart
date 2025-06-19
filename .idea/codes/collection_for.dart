@@ -5,7 +5,7 @@ void main(){
     '시우',
     '태영',
     '동균',
-    for(var friend in oldFreinds) "! $friend"
+    for(var friend in oldFreinds) "Best Friend $friend"
   ];
   
   print(newFriedns);
