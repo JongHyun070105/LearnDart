@@ -1,4 +1,4 @@
-void main(){
+void main() {
   String name = '종현'; // '' 쓰든 "" 쓰든 상관이 없다
   bool isnull = false;
   int age = 19;
